@@ -30,6 +30,7 @@ import { FormsModule } from '@angular/forms';
 
 })
 export class RecipesListComponent {
+
   recipes$ = this.service.recipes$;
 
   constructor(private service: RecipesService) { }
